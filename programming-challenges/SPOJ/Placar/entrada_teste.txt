@@ -1,0 +1,11 @@
+4
+cardonha 9
+infelizreprovado 3
+marcel 9 
+infelizaprovado 3
+5
+1animal 10
+2animal 9
+6animal 5
+1animal 10
+5animal 5

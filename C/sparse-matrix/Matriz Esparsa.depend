@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1436180336 source:d:\meus documentos\desktop\matriz esparsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	"mEsparsa.h"
+
+1436180459 d:\meus documentos\desktop\matriz esparsa\mesparsa.h
+
+1436162370 source:c:\users\artur_i3\google drive\estudos\ifes - si\3º período\estrutura de dados\trabalhos\matrizesparsa\nosso trabalho\matriz esparsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	"mEsparsa.h"
+
+1436162120 c:\users\artur_i3\google drive\estudos\ifes - si\3º período\estrutura de dados\trabalhos\matrizesparsa\nosso trabalho\matriz esparsa\mesparsa.h
+

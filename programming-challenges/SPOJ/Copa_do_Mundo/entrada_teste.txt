@@ -1,0 +1,19 @@
+3 3
+Brasil 3
+Australia 3
+Croacia 3
+3 3
+Brasil 5
+Japao 1
+Australia 1
+4 6
+Real_Madrid 16
+PSG 13
+Shakhtar 3
+Malmo_EE 3
+4 6
+Atletico 13
+Benfica 10
+Galatasaray 5
+Astana 4
+0
