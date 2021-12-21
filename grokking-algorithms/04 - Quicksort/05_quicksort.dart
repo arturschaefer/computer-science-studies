@@ -6,12 +6,22 @@ List<int> quickSort(List<int> list) {
   if (list.length < 2) {
     return list;
   } else {
-    final int pivot = list.first;
+    final int pivot = list.length ~/ 2;
 
-    List<int> less = list.where((value) => value < pivot).toList();
-    List<int> equal = list.where((value) => value == pivot).toList();
-    List<int> greater = list.where((value) => value > pivot).toList();
+    Iterable<int> less = list.where((value) => value < pivot);
+    Iterable<int> equal = list.where((value) => value == pivot);
+    Iterable<int> greater = list.where((value) => value > pivot);
 
-    return quickSort(less) + equal + quickSort(greater);
+    List<int> result = [];
+    if (less.isNotEmpty) {
+      result += less.toList();
+    }
+    if (equal.isNotEmpty) {
+      result += equal.toList();
+    }
+    if (greater.isNotEmpty) {
+      result += greater.toList();
+    }
+    return result;
   }
 }
