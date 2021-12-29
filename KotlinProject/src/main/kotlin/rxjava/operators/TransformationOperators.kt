@@ -1,7 +1,7 @@
-package rxjava
+package rxjava.operators
 
-import Data
 import io.reactivex.rxjava3.core.Observable
+import rxjava.Data
 
 object TransformationOperators {
     fun observableMap(ageMultiplier: Int = 2) {

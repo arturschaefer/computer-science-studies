@@ -1,3 +1,5 @@
+package rxjava
+
 // Reference -> https://www.section.io/engineering-education/rxjava-operators/
 object Data {
     data class User(val name: String, var age: Int, val location: String, var salary: Int)
