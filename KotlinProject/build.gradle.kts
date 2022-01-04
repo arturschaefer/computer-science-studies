@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     implementation ("io.reactivex.rxjava3:rxjava:3.1.3")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+
     testImplementation(kotlin("test"))
 }
 
