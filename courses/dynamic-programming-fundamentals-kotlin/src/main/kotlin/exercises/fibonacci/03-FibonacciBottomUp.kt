@@ -1,6 +1,6 @@
 package exercises.fibonacci
 
-import exercises.nanoTimeToSecondsString
+import exercises.extensions.nanoTimeToSecondsString
 import kotlin.system.measureNanoTime
 
 fun printFibonacciBottomUp(fibList: List<Int>){
